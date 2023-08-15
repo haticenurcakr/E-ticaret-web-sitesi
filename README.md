@@ -1,3 +1,17 @@
+#Grocery-E-Commerce-Website
+
+# Tasarım ve Tasarımcı
+Tasarım : https://www.figma.com/community/file/1262003322237938744/Grocery-E-Commerce-Website-Template
+Tasarımcı : https://www.linkedin.com/in/lekanokeowo/
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
