@@ -1,0 +1,87 @@
+.yesil-bloc{
+    width: 1232px;
+  height: 440px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #237943;
+  margin-top: 120px;
+  }
+  
+  .telephon{
+    width: 340px;
+    height: 550.232px;
+    flex-shrink: 0;
+  border-radius: 36.352px;
+  background: linear-gradient(238deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.25) 6.34%, rgba(255, 255, 255, 0.13) 19.65%, rgba(255, 255, 255, 0.20) 37.31%, rgba(255, 255, 255, 0.00) 37.82%);
+  background-blend-mode: normal;
+  float:left;
+  margin-left: 65%;
+  margin-top: -4%;
+  
+        
+  }
+  
+  .yesil-ici-yazi{
+    width: 549px;
+    color: var(--light-base-color-white,white );
+  text-align: center;
+  
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: 0.24px;
+  
+  flex-shrink: 0;
+  margin-left: 150px;
+  margin-top: -30%;
+  }
+  
+  .button2 {
+    display: flex;
+  width: 296px;
+  height: 62px;
+  padding: 40px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--light-base-color-white, #FFF);
+  margin: -200px;
+    margin-top: -20%;
+    color: var(--light-text-color-title, #29292E);
+text-align: center;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 21.6px */
+letter-spacing: 0.09px;
+  
+  
+  }
+  .button3 {
+    display: flex;
+  width: 296px;
+  height: 62px;
+  padding: 40px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--light-base-color-white, #FFF);
+  margin: -500px;
+    margin-top: -20%;
+    color: var(--light-text-color-title, #29292E);
+    text-align: center;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    letter-spacing: 0.09px;
+
+  }
+  

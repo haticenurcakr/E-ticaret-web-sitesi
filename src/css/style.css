@@ -1,0 +1,124 @@
+@import url("urunSayfasi.css");
+@import url("urunAciklama.css");
+@import url("department.css");
+@import url("order.css");
+@import url("navbar.css");
+@import url("indirimCartlari.css");
+@import url("resimYazi.css");
+@import url("telefonResimli.css");
+@import url("urunList.css");
+
+.checklist li input[type="checkbox"] {
+  /* Değiştirmek istediğiniz özelleştirmeleri burada yapabilirsiniz */
+  appearance: none; /* Tarayıcı stilini devre dışı bırakır */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #4CAF50; /* Yeşil renk için */
+  border-radius: 4px;
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+}
+
+/* Checkbox seçildiğinde (checked) stil */
+.checklist li input[type="checkbox"]:checked {
+  background-color: #4CAF50; /* Yeşil renk için */
+  border-color: #4CAF50; /* Yeşil renk için */
+}
+
+.acordion-minnak{width: 150px;
+  height: 32px;
+  flex-shrink: 0;}
+
+
+.katagori-text{
+  color: var(--light-text-color-title, #29292E);
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 28.8px */
+letter-spacing: 0.12px;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.mini-button-konum{
+  position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+
+.card-wrapper {
+  position: relative;
+  display: inline-block; /* Ya da flex, grid gibi bir yöntem kullanabilirsiniz */
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-abs {
+  position: absolute;
+  
+  top: 0;
+  right: -10px;
+ left: 100%;
+  
+}
+
+/* katogori yuvarlakları  */
+
+.button-yuvarlak {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text-yuvarlak {
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* .btn-card { 
+  display: inline-block;
+
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: inline-flex;
+  height: 48px;
+  padding: 12px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--light-text-link-color-green, #237943);
+  color: var(--light-text-link-color-white, #FFF);
+  text-align: center;
+  
+}*/

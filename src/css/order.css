@@ -1,0 +1,119 @@
+
+.ana-kutu-2 {
+    display: flex; /* İçeriği yatayda yan yana dizin */
+    margin-top: 83px;
+  }
+  
+  .kutu-1-2 {
+   
+    box-sizing: border-box; /* Kenar boşlukları dahil genişliği hesaplar */
+    
+  flex-shrink: 0;
+  }
+  .kutu-2-3{
+    /* Eşit genişlikte kutular yapar */
+      box-sizing: border-box;
+      margin-left: 16px;
+      margin-top: 140px;
+  }
+  
+  
+    .box {
+      width: 300px;
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    
+    .product {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .product img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+    
+    .product-info h3 {
+      margin: 0;
+    }
+    
+    .total {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    
+    .total-amount {
+      font-weight: bold;
+    }
+    .total-1{
+      color: var(--light-text-color-body-1, #727272);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 18.2px */
+  letter-spacing: 0.112px;
+    }
+    
+    .buy-button {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      background: var(--light-text-link-color-green, #237943);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .h1-1{
+      color: var(--light-text-color-title, #29292E);
+  
+  
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: 0.24px;
+    }
+    .h2-2{
+      color: var(--light-text-color-title, #29292E);
+  
+  /* Heading/H4 Bold */
+  
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 37.2px */
+  letter-spacing: 0.155px;
+  margin-bottom: 48px;
+  text-align: left;
+  margin-top:  64px; ;
+    }
+  
+   
+  
+  .order-1{
+    color: var(--light-text-color-title, #11142D);
+  
+  /* Body/Body 1 Semibold */
+  
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+  letter-spacing: 0.08px;
+  }
+  .order-2{
+    color: var(--light-text-link-color-green, #237943);
+  
+  /* Heading/H6 Bold */
+  
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 21.6px */
+  letter-spacing: 0.09px;
+  }

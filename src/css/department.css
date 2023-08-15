@@ -1,0 +1,163 @@
+
+.accordion-button:last-child:focus,
+.accordion-button:last-child:active,
+.accordion-button:active,
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: none;
+  color: var(--light-text-color-title, #29292E);
+}
+.acordion-1{
+  color: var(--light-text-color-title, #29292E);
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  letter-spacing: 0.12px;
+}
+
+.page-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: none;
+}  
+.page-btn{
+ margin: 5px; 
+}
+
+.page-btn:hover{
+  background-color:var(--light-text-link-color-green, #237943); 
+}
+
+.page-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: none;
+}  
+  
+  .product-category {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .checklist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checklist label {
+    margin-left: 10px;
+  }
+  
+  .checklist input[type="checkbox"] {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  /* ------------------------------------- */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   
+  }
+
+  .ana-kutu {
+    display: flex; /* İçeriği yatayda yan yana dizin */
+    margin-top: 83px;
+  }
+  
+  .kutu-1 {
+    flex: 1; /* Eşit genişlikte kutular yapar */
+    box-sizing: border-box; /* Kenar boşlukları dahil genişliği hesaplar */
+    width: 400px;
+height: 879px;
+flex-shrink: 0;
+  }
+  .kutu-2{
+      flex: 1; /* Eşit genişlikte kutular yapar */
+      box-sizing: border-box;
+      width: 1440px;
+      margin-left: 7px;
+
+  }
+  .product-cont{
+    width: 400px;
+height: 879px;
+flex-shrink: 0;
+  }
+
+  .alt-kutu{
+    display: block; /* Varsayılan olarak blok öğelerdir, yani alt alta yerleşirler */
+    margin-bottom: 10px;
+  }
+ 
+ 
+
+  .button-container {
+    display: flex;
+  }
+  
+  .round-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 4%;
+  }
+  
+  .round-button img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .round-button span {
+    font-size: 16px;
+  }
+  
+
+  .check-box-info{
+    width: 816px;
+height: 220px;
+flex-shrink: 0;
+  }
+
+
+.footer-text{
+  color: var(--light-text-color-title, #29292E);
+
+/* Body/Body 1 Regular */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+letter-spacing: 0.08px;
+}
+
+.footer-img{
+  width: 24px;
+height: 24px;
+flex-shrink: 0;
+}

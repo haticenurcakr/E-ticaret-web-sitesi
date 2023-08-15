@@ -1,0 +1,66 @@
+
+  
+  .ur-container {
+    display: flex;
+  }
+  
+  .ur-buttons {
+    display: flex;
+    flex-direction: column;
+    
+    width: 400px;
+height: 350px;
+flex-shrink: 0;
+  }
+  .ur-card{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .ur-button {
+    padding: 8px 16px;
+    margin-bottom: 4px;
+    background-color: #FFF;
+    text-align: start;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #9797A6;
+    transition: background-color 0.3s ease; 
+
+/* Heading/H5 Bold */
+
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 28.8px */
+letter-spacing: 0.12px;
+  }
+
+  .ur-button.active {
+   color: #237943;
+  }
+  
+  .ur-content-area {
+    padding: 16px;
+    margin-bottom:16px ;
+    flex-grow: 1;
+    
+  }
+  
+  .ur-content {
+    font-size: 16px;
+    color: var(--light-text-color-body-1, #727272);
+    display: none; /* İçerik başlangıçta gizli */
+    margin: auto;
+  }
+  
+  .ur-cont{
+  
+      display: flex;
+      flex-wrap: wrap;
+      
+    
+  }
+    
+

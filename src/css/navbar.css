@@ -1,0 +1,78 @@
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .search-box {
+    flex: 1;
+    margin: 0 20px;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .search-input:focus {
+    outline: none;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon-text {
+    color: white;
+  }
+
+  .search-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .search-input {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .search-icon-container {
+    padding-right: 10px;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .form-control {
+    padding-left: 30px; /* Ayarlamayı istediğiniz miktara göre değiştirin */
+  }
+  

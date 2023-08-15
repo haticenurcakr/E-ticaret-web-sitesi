@@ -1,0 +1,206 @@
+/* Çubuk için genel stil */
+.breadcrumb {
+    background-color: #DAF9E5 ;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+   
+  }
+  
+  /* Ev simgesi için stil */
+  .breadcrumb a {
+    color:green;
+    text-decoration: none;
+  }
+  
+
+  /* ">" işareti için stil */
+  .breadcrumb span::before {
+    content: "";
+    padding: 0 5px;
+    color: green;
+  }
+  
+
+  /* ürün sayfası */
+  /* Ürünlerin genel stilini belirleme */
+.product-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-image img {
+    width: 520px;
+    height: 605px;
+    margin-right: 104px;
+  }
+  
+  /* Ürün ismi stilini belirleme */
+  .product-name {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  /* İndirim yüzdesi ve fiyat stilini belirleme */
+  .discount-price {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .discount-percentage {
+    width: 60px;
+height: auto;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--light-primary-color-30, #FDE6D5);
+color: var(--light-primary-color-50, #FA7514);
+text-align: center;
+
+
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 16.8px */
+letter-spacing: 0.07px;
+  }
+  
+  .original-price {
+    margin-left: 10px;
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  /* Miktar seçici stilini belirleme */
+  .quantity-selector {
+    margin-top: 10px;
+  }
+  
+  .quantity-button {
+   
+    
+    background-color:#237943 ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    display: flex;
+width: 608px;
+height: 72px;
+padding: 24px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+margin-top: 10px;
+  }
+  
+  .quantity-button:last-child {
+    margin-right: 0;
+  }
+  
+  .quantity-button-2 {
+   
+    border-color: #237943;
+    color:#237943 ;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    display: flex;
+width: 608px;
+height: 72px;
+padding: 24px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+margin-top: 10px;
+  }
+  
+  .quantity-button-2:last-child {
+    margin-right: 0;
+  }
+/* button  */
+.quantity-control {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .minus-button, .plus-button {
+    width: 40px;
+    height: 40px;
+    background-color:#237943;
+    color: #fff;
+    border: none;
+    border-radius: 20%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .value {
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .minus-button {
+    margin-right: 10px;
+  }
+  
+  .plus-button {
+    margin-left: 10px;
+  }
+  
+/* button end */
+
+ .minimum-order{
+    color: var(--light-text-color-body-2, #9797A6);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 19.2px */
+letter-spacing: 0.08px;
+margin-top: 30px;
+ }
+
+
+.product-price{
+    color: var(--light-primary-color-85, #237943);
+text-align: center;
+
+/* Heading/H2 Bold */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+letter-spacing: 0.24px;
+}
+
+.product-lbs{
+    color: var(--light-primary-color-85, #237943);
+
+/* Heading/H4 Bold */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 31px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0.155px;
+}
+
